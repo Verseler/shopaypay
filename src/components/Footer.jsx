@@ -6,12 +6,11 @@ export default function Footer() {
       <div className="grid gap-10 md:grid-cols-3 primary-container">
         <div>
           <div>
-            <span className="font-mono text-3xl font-bold">SHOPAYPAY</span>
+            <span className="font-mono text-2xl font-bold">SHOPAYPAY</span>
           </div>
           <p className="my-10 text-xl font-semibold">
             Socially and environmentally progressive outdoor footwear
           </p>
-          <SocialMediaLinks />
         </div>
 
         <div>

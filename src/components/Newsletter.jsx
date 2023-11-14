@@ -3,7 +3,7 @@ export default function Newsletter() {
     <section className="py-20 text-center bg-secondary">
       <div className="primary-container">
         <h2 className="text-4xl font-semibold md:text-5xl text-primary">Let&apos;s stay in touch!</h2>
-        <p className="max-w-2xl m-auto mt-8 mb-10 text-2xl text-primary">
+        <p className="max-w-3xl m-auto mt-8 mb-10 text-2xl text-primary">
           Subscribe to our newsletter. Get $10 off voucher your first purchase, exclusive
           offers and outdoor tips, trips, and education
         </p>
