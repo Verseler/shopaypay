@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  @apply box-border p-0 m-0;
+}
+
+.primary-container {
+  @apply w-4/5 m-auto max-w-[1200px];
+}
