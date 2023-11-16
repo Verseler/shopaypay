@@ -8,8 +8,8 @@ export default function Newsletter() {
           offers and outdoor tips, trips, and education
         </p>
         <form className="flex flex-wrap m-auto max-w-max shadow-[0px_0px_2px_0px_#00000024]">
-          <input className="flex-1 px-5 py-3 w-[325px] min-w-[125px] cursor-pointer"  type="email" placeholder="Your e-mail" required/>
-          <input className="w-full px-5 py-3 font-bold text-white cursor-pointer 1xs:w-min bg-primary"  type="submit" value="Get $10 savings" />
+          <input className="flex-1 p-3 w-[300px] min-w-[125px] cursor-pointer"  type="email" placeholder="Your e-mail" required/>
+          <input className="w-full p-3 font-bold text-white cursor-pointer 1xs:w-min bg-primary"  type="submit" value="Get $10 savings" />
         </form>
       </div>
     </section>

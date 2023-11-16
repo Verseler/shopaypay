@@ -16,6 +16,8 @@ export default {
         'xs': '475px',
         '1xs' : '410px',
         '2xs' : '375px',
+        '3xs' : '350px',
+        '4xs' : '325px'
       },
     },
   },

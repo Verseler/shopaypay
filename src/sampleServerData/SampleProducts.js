@@ -1,0 +1,42 @@
+
+export default [
+    {id : 1, "category": "jacket", "name": "Urban Explorer Jacket", "price": 89.99, "img": "/public/images/products/jacket1.jpg"},
+    {id : 2, "category": "jacket", "name": "Rugged Horizon Coat", "price": 109.95, "img": "/public/images/products/jacket2.jpg"},
+    {id : 3, "category": "jacket", "name": "Cityscape Bomber", "price": 79.99, "img": "/public/images/products/jacket3.jpg"},
+    {id : 4, "category": "jacket", "name": "Highlander Parka", "price": 129.99, "img": "/public/images/products/jacket4.jpg"},
+    {id : 5, "category": "jacket", "name": "Skyline Windbreaker", "price": 69.99, "img": "/public/images/products/jacket5.jpg"},
+    {id : 6, "category": "jacket", "name": "Alpine Explorer Jacket", "price": 94.50, "img": "/public/images/products/jacket6.jpg"},
+    {id : 7, "category": "jacket", "name": "Metropolitan Denim Jacket", "price": 79.95, "img": "/public/images/products/jacket7.jpg"},
+    {id : 8, "category": "jacket", "name": "Trailblazer Leather Jacket", "price": 149.99, "img": "/public/images/products/jacket8.jpg"},
+    {id : 9, "category": "jacket", "name": "Arctic Expedition Parka", "price": 179.95, "img": "/public/images/products/jacket9.jpg"},
+    {id : 10, "category": "jacket", "name": "Downtown Puffer Jacket", "price": 99.99, "img": "/public/images/products/jacket10.jpg"},
+    {id : 11, "category": "jacket", "name": "Outlandish Explorer Coat", "price": 119.99, "img": "/public/images/products/jacket11.jpg"},
+    {id : 12, "category": "jacket", "name": "Venture Quest Jacket", "price": 84.99, "img": "/public/images/products/jacket12.jpg"},
+    {id : 13, "category": "jacket", "name": "Epic Journey Windbreaker", "price": 74.99, "img": "/public/images/products/jacket13.jpg"},
+    {id : 14, "category": "jacket", "name": "Midnight Urban Parka", "price": 139.99, "img": "/public/images/products/jacket14.jpg"},
+    {id : 15, "category": "jacket", "name": "Stealthy Navigator Coat", "price": 159.99, "img": "/public/images/products/jacket15.jpg"},
+    
+    {id : 16, "category": "pants", "name": "Trailblazer Cargo Pants", "price": 59.99, "img": "/public/images/products/pants1.jpg"},
+    {id : 17, "category": "pants", "name": "Explorer Tactical Trousers", "price": 69.95, "img": "/public/images/products/pants2.jpg"},
+    {id : 18, "category": "pants", "name": "Cityscape Slim Fit Jeans", "price": 49.99, "img": "/public/images/products/pants3.jpg"},
+    {id : 19, "category": "pants", "name": "Highlander Hiking Pants", "price": 79.99, "img": "/public/images/products/pants4.jpg"},
+    {id : 20, "category": "pants", "name": "Metropolitan Chino Pants", "price": 54.99, "img": "/public/images/products/pants5.jpg"},
+    {id : 21, "category": "pants", "name": "Urban Camo Cargo Pants", "price": 64.50, "img": "/public/images/products/pants6.jpg"},
+    
+    {id : 22, "category": "short", "name": "Breezy Board Shorts", "price": 34.99, "img": "/public/images/products/short1.jpg"},
+    {id : 23, "category": "short", "name": "Sunny Day Denim Shorts", "price": 29.95, "img": "/public/images/products/short2.jpg"},
+    {id : 24, "category": "short", "name": "Beachcomber Athletic Shorts", "price": 24.99, "img": "/public/images/products/short3.jpg"},
+    {id : 25, "category": "short", "name": "Trailblazer Hiking Shorts", "price": 39.99, "img": "/public/images/products/short4.jpg"},
+    {id : 26, "category": "short", "name": "Cityscape Casual Shorts", "price": 26.99, "img": "/public/images/products/short5.jpg"},
+    {id : 27, "category": "short", "name": "Adventure Seeker Cargo Shorts", "price": 31.50, "img": "/public/images/products/short6.jpg"},
+    {id : 28, "category": "short", "name": "Urban Express Shorts", "price": 28.99, "img": "/public/images/products/short7.jpg"},
+    
+    {id : 29, "category": "tshirt", "name": "Classic Urban Tee", "price": 19.99, "img": "/public/images/products/tshirt1.jpg"},
+    {id : 30, "category": "tshirt", "name": "Graphic Explorer Shirt", "price": 24.95, "img": "/public/images/products/tshirt2.jpg"},
+    {id : 31, "category": "tshirt", "name": "Vintage Cityscape T-Shirt", "price": 17.99, "img": "/public/images/products/tshirt3.jpg"},
+    {id : 32, "category": "tshirt", "name": "Adventure Awaits Tee", "price": 29.99, "img": "/public/images/products/tshirt4.jpg"},
+    {id : 33, "category": "tshirt", "name": "Casual Explorer T-Shirt", "price": 22.99, "img": "/public/images/products/tshirt5.jpg"},
+    {id : 34, "category": "tshirt", "name": "Sunset Horizon Graphic Tee", "price": 27.50, "img": "/public/images/products/tshirt6.jpg"},
+    {id : 35, "category": "tshirt", "name": "City Lights Urban Shirt", "price": 23.99, "img": "/public/images/products/tshirt7.jpg"},
+    {id : 36, "category": "tshirt", "name": "Nature Lover T-Shirt", "price": 26.99, "img": "/public/images/products/tshirt8.jpg"}
+  ]
