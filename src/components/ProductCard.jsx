@@ -2,7 +2,7 @@ export default function ProductCard(props) {
   return(
     <div className='text-primary'>
       <div className='container mb-3'>
-        <img className='object-cover w-full h-56' src={props.img} />
+      <img className='object-cover w-full h-56' src={`../images/products/${props.img}`} />
       </div>
       <h2 className='text-xs font-semibold text-gray-400'>{props.category}</h2>
       <h3 className='mt-3 text-sm font-bold truncate'>{props.name}</h3>
