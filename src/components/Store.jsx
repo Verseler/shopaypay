@@ -1,7 +1,7 @@
 import SampleProducts from "../sampleServerData/SampleProducts";
 import SortOptions from "../sampleServerData/SortOptions";
 import Categories from "../sampleServerData/Categories";
-import ProductCard from "./Productcard";
+import ProductCard from "./ProductCard";
 import { useState } from "react";
 import DarkScreen from "./DarkScreen";
 
@@ -58,9 +58,7 @@ export default function Store() {
 
   return (
     <main>
-      {!showSideBar || (
-        <DarkScreen />
-      )}
+      {!showSideBar || <DarkScreen />}
 
       <div className="px-4 py-14 text-primary md:px-0 md--primary-container">
         <h1 className="mb-16 text-4xl font-semibold text-primary">Shop All</h1>
@@ -98,7 +96,11 @@ export default function Store() {
                 <label htmlFor="storeProductCategory" className="mr-4">
                   Filter:
                 </label>
-                <select className="bg-transparent" id="storeProductCategory" onChange={filterProducts}>
+                <select
+                  className="bg-transparent"
+                  id="storeProductCategory"
+                  onChange={filterProducts}
+                >
                   {Categories.map((category) => (
                     <option key={category.id} value={category.value}>
                       {category.name}
@@ -110,7 +112,11 @@ export default function Store() {
                 <label htmlFor="storeProductSort" className="mr-4">
                   Sort by:
                 </label>
-                <select className="bg-transparent" id="storeProductSort" onChange={sortProducts}>
+                <select
+                  className="bg-transparent"
+                  id="storeProductSort"
+                  onChange={sortProducts}
+                >
                   {SortOptions.map((option) => (
                     <option key={option.id} value={option.value}>
                       {option.name}
