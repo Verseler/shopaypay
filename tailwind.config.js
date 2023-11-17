@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "inter" : ['Inter', "sans-serif"],
+    },
     extend: {
       colors: {
         'primary' : '#524940',
