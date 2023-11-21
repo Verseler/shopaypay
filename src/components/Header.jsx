@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SocialMediaLinks from "./SocialMediaLinks";
 import DarkScreen from "./DarkScreen";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   let [showSideBar, setShowSideBar] = useState(false);
@@ -29,13 +30,13 @@ export default function Header() {
         >
           <ul className="flex flex-col gap-6 p-10 md:flex-row">
             <li>
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Categories</a>
+              <Link to="#">Categories</Link>
             </li>
             <li>
-              <a>Shop All</a>
+              <Link to="Store">Shop All</Link>
             </li>
           </ul>
           <div className="p-8 h-60 bg-quaternary md:hidden">

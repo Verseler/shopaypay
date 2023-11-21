@@ -7,7 +7,7 @@ export default function Carousel() {
     <div className="w-full h-screen carousel">
       {CarouselSampleImg.map((sample) => (
         <div key={sample.id} id={`slide${sample.id}`} className="relative w-full carousel-item">
-          <picture>
+          <picture className="w-full">
           <source media="(max-width: 1024px)" srcSet={`../images/carousel/mobile-${sample.img}.jpg`} />
           <img
             src={`../images/carousel/${sample.img}.png`}

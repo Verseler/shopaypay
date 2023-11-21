@@ -1,9 +1,9 @@
 import SampleProducts from "../sampleServerData/SampleProducts";
 import SortOptions from "../sampleServerData/SortOptions";
 import Categories from "../sampleServerData/Categories";
-import ProductCard from "./ProductCard";
+import ProductCard from "../components/ProductCard";
 import { useState } from "react";
-import DarkScreen from "./DarkScreen";
+import DarkScreen from "../components/DarkScreen";
 
 export default function Store() {
   //sidebar for filter and sort when they merge together in a small screen
