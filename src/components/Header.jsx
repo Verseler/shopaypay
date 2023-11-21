@@ -28,18 +28,18 @@ export default function Header() {
             md:bg-transparent md:static md:flex md:p-0`}
         >
           <ul className="flex flex-col gap-6 p-10 md:flex-row">
-            <li className="cursor-pointer">
+            <li>
               <a>Home</a>
             </li>
-            <li className="cursor-pointer">
+            <li>
               <a>Categories</a>
             </li>
-            <li className="cursor-pointer">
+            <li>
               <a>Shop All</a>
             </li>
           </ul>
           <div className="p-8 h-60 bg-quaternary md:hidden">
-            <div className="flex items-center mb-6 cursor-pointer text-primary">
+            <div className="flex items-center mb-6 text-primary">
               <span className="mr-2 text-3xl material-symbols-outlined">
                 person
               </span>
